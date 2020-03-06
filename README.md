@@ -24,7 +24,7 @@ For database part, table has following schema:
 
 ## Note
 
-It is recommended to use MAMP/MAMP Pro on Windows/Mac for creating the MySQL Database. Login and Goto the phpMyAdmin Startup page. 
+It is recommended to use MAMP/MAMP Pro on Windows/Mac for creating the MySQL Database. Login and Goto the phpMyAdmin Startup page. Download Mamp <a href="https://www.mamp.info/en/downloads/">Here</a>
 
 For the database created, the credentials are:
 
