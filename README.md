@@ -21,3 +21,12 @@ For database part, table has following schema:
   <li>BabyNames (name, year, ranking, gender) </li>
 </ol>
 </p>
+
+## Note
+
+It is recommended to use MAMP/MAMP Pro on Windows/Mac for creating the MySQL Database. Login and Goto the phpMyAdmin Startup page. 
+
+For the database created, the credentials are:
+
+DB Name: HW3
+Table Name: BabyNames
