@@ -22,6 +22,10 @@ For database part, table has following schema:
 </ol>
 </p>
 
+# PHP-MYSQL using AJAX
+
+The babynames.html and babynames_ajax.php files are used to access the same MYSQL data using AJAX and XMLHTTP calls. The event is triggered using a button click.
+
 ## Note
 
 It is recommended to use MAMP/MAMP Pro on Windows/Mac for creating the MySQL Database. Login and Goto the phpMyAdmin Startup page. Download Mamp <a href="https://www.mamp.info/en/downloads/">Here</a>
