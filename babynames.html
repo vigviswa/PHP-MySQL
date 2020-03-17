@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Babynames</title>
+    <script>
+      function showUser() {
+        var str1 = document.getElementById("myYear").value;
+        var str2 = document.getElementById("myGender").value;
+
+        xmlhttp = new XMLHttpRequest();
+        xmlhttp.open(
+          "GET",
+          "babynames.php?year=" + str1 + "&gender=" + str2,
+          true
+        );
+        xmlhttp.send();
+        xmlhttp.onload = function() {
+          if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            document.getElementById("results").innerHTML = xmlhttp.responseText;
+          }
+        };
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Popular BabyNames Through 2005 - 2015</h1>
+    <form>
+      <fieldset>
+        <legend>Selecting the Filters</legend>
+        <p>
+          <label>Select year</label>
+          <select id="myYear" name="year">
+            <option value="2000">All Years</option>
+            <option value="2005">2005</option>
+            <option value="2006">2006</option>
+            <option value="2007">2007</option>
+            <option value="2008">2008</option>
+            <option value="2009">2009</option>
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+          </select>
+          <label>Select the Gender</label>
+          <select id="myGender" name="gender">
+            <option value="b">Both Genders</option>
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+          </select>
+        </p>
+      </fieldset>
+      <input
+        type="button"
+        value="Click to Display Results"
+        onclick="showUser()"
+      />
+    </form>
+
+    <div id="results"></div>
+  </body>
+</html>
