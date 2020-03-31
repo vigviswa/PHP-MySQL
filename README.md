@@ -34,3 +34,20 @@ For the database created, the credentials are:
 
 DB Name: HW3
 Table Name: BabyNames
+
+# PHP-MYSQL Encoding the Result as a JSON Object
+
+In this update to the original code, under 'index.php', the results of the data in the MYSQL table are fetched and encoded as a Json Object.
+
+For this Part, I created a new database under the name 'PW7' and the Table name for the data is 'Books'.
+
+Books contains the ISBN, Author Name, Price, Title and Category of a certain book. The table has 198 records.
+
+I have utilized json_encode() function in PHP for the same. First, we extract the data as an object using the mysqli_fetch_object() function.
+
+I have attached the screenshots of the results. 
+
+For viewing the results on Chrome, I used the Json Viewer Extension on Chrome.
+
+I updated the settings on the Options tab of Json Viewer Extension as:
+
