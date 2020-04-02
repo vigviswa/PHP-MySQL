@@ -90,3 +90,12 @@ id will be Book ISBN and if you give ISBN number at the end of URL, index.php wi
 The solution is under the name indexapi.php
 
 I have also attached the screenshots for the various cases of the calls.
+
+# Summary
+
+All the files have implemented PHP MySQL calls, using functions, using AJAX calls. Also, in the latter part, I have also used this model to implement REST API's in PHP.
+
+# Contact
+
+Feel free to reach out for any help required regarding this project!
+Visit my <a href="http://vigviswa.com/"> website </a>
