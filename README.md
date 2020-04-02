@@ -35,7 +35,9 @@ For the database created, the credentials are:
 DB Name: HW3
 Table Name: BabyNames
 
-# PHP-MYSQL Encoding the Result as a JSON Object
+# Implementing REST API using PHP
+
+## PHP-MYSQL Encoding the Result as a JSON Object
 
 In this update to the original code, under 'index.php', the results of the data in the MYSQL table are fetched and encoded as a Json Object.
 
@@ -52,4 +54,39 @@ This is sa simple implementation of REST API Service using PHP.
 For viewing the results on Chrome, I used the Json Viewer Extension on Chrome.
 
 I updated the settings on the Options tab of Json Viewer Extension as:
+<ol>
+  <li> {
+  "prependHeader": true,
+  "maxJsonSize": 400,
+  "alwaysFold": true,
+  "alwaysRenderAllContent": false,
+  "sortKeys": false,
+  "clickableUrls": true,
+  "wrapLinkWithAnchorTag": false,
+  "openLinksInNewWindow": true,
+  "autoHighlight": true
+    } </li>
+  <li> {
+  "readOnly": true,
+  "lineNumbers": true,
+  "lineWrapping": true,
+  "foldGutter": true,
+  "tabSize": 2,
+  "indentCStyle": false,
+  "showArraySize": true
+    } </li>  
+</ol>
 
+# REST API creating separate calls for id of the books
+
+## The following changes explain how we can implement separate API calls for singular books using their ISBN number
+
+This is very similar to PW7 except that I also implemented:
+
+http://localhost/books/id
+
+id will be Book ISBN and if you give ISBN number at the end of URL, index.php will return one single object that corresponds to the book with given ISBN.
+
+The solution is under the name indexapi.php
+
+I have also attached the screenshots for the various cases of the calls.
