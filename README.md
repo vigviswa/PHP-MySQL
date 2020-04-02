@@ -47,6 +47,8 @@ I have utilized json_encode() function in PHP for the same. First, we extract th
 
 I have attached the screenshots of the results. 
 
+This is sa simple implementation of REST API Service using PHP.
+
 For viewing the results on Chrome, I used the Json Viewer Extension on Chrome.
 
 I updated the settings on the Options tab of Json Viewer Extension as:
