@@ -32,8 +32,9 @@ It is recommended to use MAMP/MAMP Pro on Windows/Mac for creating the MySQL Dat
 
 For the database created, the credentials are:
 
-DB Name: HW3
-Table Name: BabyNames
+`DB Name: HW3`
+
+`Table Name: BabyNames`
 
 # Implementing REST API using PHP
 
@@ -98,5 +99,4 @@ All the files have implemented PHP MySQL calls, using functions, using AJAX call
 # Contact
 
 Feel free to reach out for any help required regarding this project!
-Visit my <a href="http://vigviswa.com/"> website </a>
-aa
+Visit my website [here](http://vigviswa.com/) and follow me on [LinkedIn](https://www.linkedin.com/in/vigviswa/)
