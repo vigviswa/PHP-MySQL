@@ -84,7 +84,9 @@ I updated the settings on the Options tab of Json Viewer Extension as:
 
 This is very similar to PW7 except that I also implemented:
 
+```
 http://localhost/books/id
+```
 
 id will be Book ISBN and if you give ISBN number at the end of URL, index.php will return one single object that corresponds to the book with given ISBN.
 
